@@ -5,7 +5,7 @@
     --color-heading: #eef3db;
     --color-base: #033f47;
     --color-base2: #022a30;
-    --color-brand: #6fc925dc;
+    --color-brand: #eaea57;
     --color-brand2: #39722b;
     --sidbar-width: 240px;
     --font-base: "Bai Jamjuree";
@@ -17,7 +17,12 @@ body {
     font-family: var(--font-base), sans-serif;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: var(--color-heading);
     font-weight: 700;
 }
@@ -29,7 +34,8 @@ a {
 }
 
 a:hover {
-    color: var(--color-brand);
+    /* background-color: black; */
+    color: blanchedalmond;
 }
 
 img {
@@ -41,7 +47,7 @@ img {
 }
 
 .bg-base {
-    background-color:rgb(7, 140, 192);
+    background-color: rgb(7, 140, 192);
 }
 
 .full-height {
@@ -52,11 +58,11 @@ img {
     justify-content: center;
     padding-top: 80px;
     padding-bottom: 80px;
-    border-bottom: 2px solid rgba(255,255,255, 0.1);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
 }
 
 .shadow-effect {
-    transition:  0.5s;
+    transition: 0.5s;
 }
 
 .shadow-effect:hover {
@@ -76,7 +82,7 @@ img {
 
 /* NAVBAR */
 .navbar {
-    background-color:hsl(0deg 14% 17%);
+    background-color: hsl(0deg 14% 17%);
     opacity: 0.9;
 }
 
@@ -87,7 +93,7 @@ img {
 }
 
 .navbar .nav-link:hover {
-    color:rgb(214, 83, 83);
+    color: rgb(214, 83, 83);
 }
 
 .navbar .nav-link.active {
@@ -98,7 +104,7 @@ img {
     .navbar {
         min-height: 100vh;
         width: var(--sidbar-width);
-        background:  url(../images/sidbar-img1.jpg);
+        background: url(../images/sidbar-img1.jpg);
         background-size: cover;
         background-position: center;
         object-fit: cover;
@@ -106,7 +112,8 @@ img {
     }
 
     .navbar-brand img {
-        border: 8px solid hsl(197deg 100% 38%);;
+        border: 8px solid hsl(197deg 100% 38%);
+        ;
     }
 
     /* CONTENT WRAPPER */
@@ -122,7 +129,7 @@ img {
 }
 
 .btn-brand {
-    background-color:rgb(83 196 241 / 90%);
+    background-color: rgb(83 196 241 / 90%);
     color: white;
 }
 
@@ -185,9 +192,7 @@ img {
 }
 
 /* SOCIAL ICONS */
-.social-icons {
-
-}
+.social-icons {}
 
 .social-icons a {
     width: 40px;
@@ -199,28 +204,34 @@ img {
     border-radius: 100px;
     font-size: 24px;
 }
-p{
+
+p {
     color: #ffffff !important;
     text-align: center;
     font-size: 1rem;
 }
-.cards{
+
+.cards {
     width: 400px;
     height: min-content;
     object-fit: contain;
 }
-.card > img{
+
+.card>img {
     width: 100px;
     height: 100px;
 }
-.Skills{
+
+.Skills {
     display: flex;
-   flex-wrap: wrap;
     flex-wrap: wrap;
-    justify-content: space-around;;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    ;
     gap: 4rem;
 }
-.imgs{
+
+.imgs {
     background-color: hsl(0deg 14% 17%);
     border-radius: 1rem;
     padding: 1rem;

@@ -13,6 +13,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="./assets/js/index.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("Phakgbj2fZW4JDfJm");
+        })();
+    </script>
 </head>
 
 <body data-bs-spy="scroll" data-bs-target=".navbar">
@@ -22,7 +30,7 @@
         <div class="container flex-lg-column">
             <a class="navbar-brand mx-lg-auto mb-lg-4" href="#">
                 <span class="h3 fw-bold d-block d-lg-none">dev<span style="color:rgb(81 206 255)">AshokC</span></span>
-                <img src="./assets/images/person2.jpg" class="d-none d-lg-block rounded-pill" alt="profilePic">
+                <img src="./assets/images/person2.jpg" class="d-none d-lg-block rounded-pill" alt="profilePic" />
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -56,7 +64,6 @@
     <!-- CONTENT WRAPPER -->
     <div id="content-wrapper">
 
-        <!-- HOME -->
         <section id="home" class=" full-height px-lg-5">
 
             <div class="container">
@@ -72,8 +79,9 @@
                             passionate, hardworking fresher looking for an opportunity to work in a challenging
                             environment and grow up with the organization. I am also fast learner who likes to
                             constantly upgrade myself.</p>
-                        <div data-aos="fade-up" data-aos-delay="600">
-                            <a href="#Projects" class="btn btn-brand me-3">Explore My Projects</a><br> <br>
+                        <div data-aos="fade-up" data-aos-delay="600" class="">
+                            <a href="#Projects" class="btn btn-brand m-3">Explore My Projects</a>
+                            <a href="resume.pdf" download class="btn btn-brand m-3">Download CV</a><br> <br>
                             <a href="#" class="link-custom">Call:+91 9344-019615</a>
                         </div>
                     </div>
@@ -81,9 +89,7 @@
             </div>
 
         </section>
-        <!-- //HOME -->
 
-        <!-- Skills -->
         <section id="Skills" class="full-height px-lg-5">
             <div class="container">
 
@@ -94,65 +100,55 @@
                     </div>
                 </div>
                 <section class="Skills" data-aos="fade-up" data-aos-delay="300" style="opacity: 1;">
+                    <div class="imgs" style="opacity: 1; transform: none;"><img src="assets/images/html image.svg"
+                            alt="Html5" style="height:100px;width:100px" />
+                        <p class="css-1e49vpy">Html5</p>
+                    </div>
+                    <div class="imgs" style="opacity: 1; transform: none;"><img src="assets/images/css image.svg"
+                            alt="CSS3" style="height:100px;width:100px" />
+                        <p class="css-1e49vpy">CSS3</p>
+                    </div>
+                    <div class="imgs" style="opacity: 1; transform: none;"><img src="assets/images/js image.svg"
+                            alt="JS" style="height:100px;width:100px" />
+                        <p class="css-1e49vpy">JS</p>
+                    </div>
                     <div class="imgs" style="opacity: 1; transform: none;">
-                        <img src="assets/images/react image.svg" alt="React" style="height:100px;width:100px">
+                        <img src="assets/images/react image.svg" alt="React" style="height:100px;width:100px" />
                         <p class="css-1e49vpy">React</p>
                     </div>
-                    <div class="imgs" style="opacity: 1; transform: none;"><img src="assets/images/redux image.svg"
-                            alt="Redux" style="height:100px;width:100px">
-                        <p class="css-1e49vpy">Redux</p>
-                    </div>
-                    <div class="imgs" style="opacity: 1; transform: none;"><img src="assets/images/typesript image.svg"
-                            alt="TypeScript" style="height:100px;width:100px">
-                        <p class="css-1e49vpy">TypeScript</p>
-                    </div>
                     <div class="imgs" style="opacity: 1; transform: none;"><img src="assets/images/node image.svg"
-                            alt="NodeJS" style="height:100px;width:100px">
+                            alt="NodeJS" style="height:100px;width:100px" />
                         <p class="css-1e49vpy">NodeJS</p>
                     </div>
                     <div class="imgs" style="opacity: 1; transform: none;"><img src="assets/images/Sql image.svg"
-                            alt="NodeJS" style="height:100px;width:100px">
+                            alt="NodeJS" style="height:100px;width:100px" />
                         <p class="css-1e49vpy">SQL</p>
                     </div>
                     <div class="imgs" style="opacity: 1; transform: none;"><img src="assets/images/mongo image.svg"
-                            alt="Mongodb" style="height:100px;width:100px">
+                            alt="Mongodb" style="height:100px;width:100px" />
                         <p class="css-1e49vpy">Mongodb</p>
                     </div>
-                    <div class="imgs" style="opacity: 1; transform: none;"><img src="assets/images/sass image.svg"
-                            alt="Sass" style="height:100px;width:100px">
-                        <p class="css-1e49vpy">Sass</p>
-                    </div>
                     <div class="imgs" style="opacity: 1; transform: none;"><img src="assets/images/bootstrap image.svg"
-                            alt="Sass" style="height:100px;width:100px">
+                            alt="Sass" style="height:100px;width:100px" />
                         <p class="css-1e49vpy">Bootstrap</p>
                     </div>
+                    <div class="imgs" style="opacity: 1; transform: none;"><img src="assets/images/express image.svg"
+                            alt="Sass" style="height:100px;width:100px" />
+                        <p class="css-1e49vpy">ExpressJs</p>
+                    </div>
                     <div class="imgs" style="opacity: 1; transform: none;"><img src="assets/images/git image.svg"
-                            alt="Git" style="height:100px;width:100px">
+                            alt="Git" style="height:100px;width:100px" />
                         <p class="css-1e49vpy">Git</p>
                     </div>
                     <div class="imgs" style="opacity: 1; transform: none;" class="card-custom rounded-4  shadow-effect">
                         <img src="assets/images/vscode image.svg" alt="Vscode" style="height:100px;width:100px"
-                            class="card-custom-image rounded-4">
+                            class="card-custom-image rounded-4" />
                         <p class="css-1e49vpy">Vscode</p>
-                    </div>
-                    <div class="imgs" style="opacity: 1; transform: none;"><img src="assets/images/html image.svg"
-                            alt="Html5" style="height:100px;width:100px">
-                        <p class="css-1e49vpy">Html5</p>
-                    </div>
-                    <div class="imgs" style="opacity: 1; transform: none;"><img src="assets/images/css image.svg"
-                            alt="CSS3" style="height:100px;width:100px">
-                        <p class="css-1e49vpy">CSS3</p>
-                    </div>
-                    <div class="imgs" style="opacity: 1; transform: none;"><img src="assets/images/js image.svg"
-                            alt="JS" style="height:100px;width:100px">
-                        <p class="css-1e49vpy">JS</p>
                     </div>
                 </section>
             </div>
         </section>
-        <!-- Skills -->
 
-        <!-- Projects -->
         <section id="Projects" class="full-height px-lg-5">
             <div class="container">
 
@@ -168,12 +164,13 @@
                     <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
                         <div class="card-custom rounded-4 bg-base shadow-effect">
                             <div class="card-custom-image rounded-4">
-                                <img class="rounded-4" src="./assets/images/blog-post-1.jpg" alt="">
+                                <img class="rounded-4" src="./assets/images/pro1.png" alt="dashboard" />
                             </div>
                             <div class="card-custom-content p-4">
-                                <p class="text-brand mb-2">20 Dec, 2022</p>
-                                <h5 class="mb-4">Design a creative landing page using Bootstrap 5</h5>
-                                <a href="#" class="link-custom">Read More</a>
+                                <p class="text-brand mb-2">10 Nov, 2022</p>
+                                <h5 class="mb-4">Design a creative admin dashboard page using
+                                    React</h5>
+                                <a href="https://cheerful-gecko-6b2aca.netlify.app/users" class="link-custom">Visit</a>
                             </div>
                         </div>
                     </div>
@@ -181,12 +178,13 @@
                     <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
                         <div class="card-custom rounded-4 bg-base shadow-effect">
                             <div class="card-custom-image rounded-4">
-                                <img class="rounded-4" src="./assets/images/blog-post-2.jpg" alt="">
+                                <img class="rounded-4" src="./assets/images/pro2.png" alt="Pizza App🍕" />
                             </div>
                             <div class="card-custom-content p-4">
                                 <p class="text-brand mb-2">20 Dec, 2022</p>
-                                <h5 class="mb-4">Design a creative landing page using Bootstrap 5</h5>
-                                <a href="#" class="link-custom">Read More</a>
+                                <h5 class="mb-4">Design a creative landing Pizza Delivery App🍕 using React</h5>
+                                <a href="https://frolicking-eclair-63a303.netlify.app/pizzas/menu"
+                                    class="link-custom">Visit</a>
                             </div>
                         </div>
                     </div>
@@ -194,12 +192,12 @@
                     <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
                         <div class="card-custom rounded-4 bg-base shadow-effect">
                             <div class="card-custom-image rounded-4">
-                                <img class="rounded-4" src="./assets/images/blog-post-3.jpg" alt="">
+                                <img class="rounded-4" src="./assets/images/pro3.png" alt="Movie App🎯" />
                             </div>
                             <div class="card-custom-content p-4">
-                                <p class="text-brand mb-2">20 Dec, 2022</p>
-                                <h5 class="mb-4">Design a creative landing page using Bootstrap 5</h5>
-                                <a href="#" class="link-custom">Read More</a>
+                                <p class="text-brand mb-2">08 Oct, 2022</p>
+                                <h5 class="mb-4">Design a creative landing page of Movies App🎯 using React </h5>
+                                <a href="https://bucolic-dasik-545766.netlify.app" class="link-custom">Visit</a>
                             </div>
                         </div>
                     </div>
@@ -208,16 +206,14 @@
 
             </div>
         </section>
-        <!-- //Projects -->
 
-        <!-- ABOUT -->
         <section id="about" class="full-height px-lg-5">
             <div class="container">
 
                 <div class="row pb-4" data-aos="fade-up">
                     <div class="col-lg-8">
                         <h6 class="text-brand">ABOUT ME</h6>
-                        <h1>My Education & Experiance</h1>
+                        <h1>My Education & Experience</h1>
                     </div>
                 </div>
 
@@ -229,28 +225,31 @@
 
                             <div class="col-12" data-aos="fade-up" data-aos-delay="600">
                                 <div class="bg-base p-4 rounded-4 shadow-effect">
-                                    <h4>Master of Software Engineering</h4>
-                                    <p class="text-brand mb-2">De Mars University Venston Bay (2015 - 2020)</p>
-                                    <p class="mb-0">All we are more and design lorem ipsum dolor creativity sit amet
-                                        consectetur adipisicing elit</p>
+                                    <h4>Bachelor degree of Computer Science</h4>
+                                    <p class="text-brand mb-2">The American college, Madurai
+                                        (07/2019 - 05/2022)</p>
+                                    <p class="mb-0">BSc Computer Science With the GPA OF 7.6</p>
                                 </div>
                             </div>
 
                             <div class="col-12" data-aos="fade-up" data-aos-delay="600">
                                 <div class="bg-base p-4 rounded-4 shadow-effect">
-                                    <h4>Master of Software Engineering</h4>
-                                    <p class="text-brand mb-2">De Mars University Venston Bay (2015 - 2020)</p>
-                                    <p class="mb-0">All we are more and design lorem ipsum dolor creativity sit amet
-                                        consectetur adipisicing elit</p>
+                                    <h4>Higher Secondary Certificate</h4>
+                                    <p class="text-brand mb-2">St. john's Matric School, Madurai
+                                        (2017 - 2019)</p>
+                                    <p class="mb-0">Higher Secondary
+                                        Certificate (12th standard) With 65.4%</p>
                                 </div>
                             </div>
 
                             <div class="col-12" data-aos="fade-up" data-aos-delay="600">
                                 <div class="bg-base p-4 rounded-4 shadow-effect">
-                                    <h4>Master of Software Engineering</h4>
-                                    <p class="text-brand mb-2">De Mars University Venston Bay (2015 - 2020)</p>
-                                    <p class="mb-0">All we are more and design lorem ipsum dolor creativity sit amet
-                                        consectetur adipisicing elit</p>
+                                    <h4>Secondary School Leaving Certificate</h4>
+                                    <p class="text-brand mb-2">St. britto Matric School
+                                        (2010 - 2017) </p>
+                                    <p class="mb-0">Secondary School Leaving
+                                        Certificate(10th standard)
+                                        with 86.2%</p>
                                 </div>
                             </div>
 
@@ -260,18 +259,30 @@
 
                     <div class="col-lg-6">
 
-                        <h3 class="mb-4" data-aos="fade-up" data-aos-delay="300">Experiance</h3>
+                        <h3 class="mb-4" data-aos="fade-up" data-aos-delay="300">Experience</h3>
                         <div class="row gy-4">
 
                             <div class="col-12" data-aos="fade-up" data-aos-delay="600">
                                 <div class="bg-base p-4 rounded-4 shadow-effect">
-                                    <h4>Applications developer</h4>
-                                    <p class="text-brand mb-2">Twitter (2018 - 2020)</p>
-                                    <p class="mb-0">All we are more and design lorem ipsum dolor creativity sit amet
-                                        consectetur adipisicing elit</p>
+                                    <h4>Full Stack Web Development (pursuing)</h4>
+                                    <p class="text-brand mb-2">Guvi (08/2022 - 02/2023) </p>
+                                    <p class="mb-0">Guvi IIT Research Park, Chennai-(Internship)</p>
                                 </div>
                             </div>
 
+                            <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                                <div class="bg-base p-4 rounded-4 shadow-effect">
+                                    <h4>Service Language Programming (SLP)</h4>
+                                    <p class="text-brand mb-2">AMC(07/2020 - 05/2021) </p>
+                                    <p class="mb-0">
+                                        🎯Perform vendor management and oversight by analyzing vendor architecture,
+                                        business risk, business value and implementing mitigating controls<br>
+                                        🎯 Manage 2 or more subordinates; direct and prioritize the work load<br>
+                                        🎯 Manage team performance and welfare including staffing
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- 
                             <div class="col-12" data-aos="fade-up" data-aos-delay="600">
                                 <div class="bg-base p-4 rounded-4 shadow-effect">
                                     <h4>Applications developer</h4>
@@ -279,16 +290,7 @@
                                     <p class="mb-0">All we are more and design lorem ipsum dolor creativity sit amet
                                         consectetur adipisicing elit</p>
                                 </div>
-                            </div>
-
-                            <div class="col-12" data-aos="fade-up" data-aos-delay="600">
-                                <div class="bg-base p-4 rounded-4 shadow-effect">
-                                    <h4>Applications developer</h4>
-                                    <p class="text-brand mb-2">Twitter (2018 - 2020)</p>
-                                    <p class="mb-0">All we are more and design lorem ipsum dolor creativity sit amet
-                                        consectetur adipisicing elit</p>
-                                </div>
-                            </div>
+                            </div> -->
 
                         </div>
 
@@ -298,12 +300,7 @@
 
             </div>
         </section>
-        <!-- //ABOUT -->
-        <!-- BLOG -->
 
-        <!-- //BLOG -->
-
-        <!-- CONTACT -->
         <section id="contact" class="full-height px-lg-5">
             <div class="container">
 
@@ -315,33 +312,29 @@
                     </div>
 
                     <div class="col-lg-8" data-aos="fade-up" data-aos-delay="300">
-                        <form action="#" class="row g-lg-3 gy-3">
+                        <form action="" class="row g-lg-3 gy-3">
                             <div class="form-group col-md-6">
-                                <input type="text" class="form-control" placeholder="Enter your name">
+                                <input type="text" id="name" class="form-control" placeholder="Enter your name"
+                                    required>
                             </div>
                             <div class="form-group col-md-6">
-                                <input type="email" class="form-control" placeholder="Enter your email">
+                                <input type="email" id="email" class="form-control" placeholder="Enter your email"
+                                    required>
                             </div>
                             <div class="form-group col-12">
-                                <input type="text" class="form-control" placeholder="Enter subject">
-                            </div>
-                            <div class="form-group col-12">
-                                <textarea name="" rows="4" class="form-control"
-                                    placeholder="Enter your message"></textarea>
+                                <textarea rows="4" id="message" class="form-control" placeholder="Enter your message"
+                                    required></textarea>
                             </div>
                             <div class="form-group col-12 d-grid">
-                                <button type="submit" class="btn btn-brand">Contact me</button>
+                                <button type="submit" onclick="sendMail()" class="btn btn-brand">Contact me</button>
                             </div>
                         </form>
                     </div>
                 </div>
 
-
             </div>
         </section>
-        <!-- //CONTACT -->
 
-        <!-- FOOTER -->
         <footer class="py-5 px-lg-5">
             <div class="container">
                 <div class="row gy-4 justify-content-evenly">
@@ -360,11 +353,9 @@
                 </div>
             </div>
         </footer>
-        <!-- //FOOTER -->
+
 
     </div>
-    <!-- //CONTENT WRAPPER -->
-
 
 
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
