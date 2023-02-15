@@ -1,309 +1,551 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ashok Kumar Full Stack (Web developer) </title>
-    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./assets/css/aos.css">
-    <link rel="stylesheet" href="./assets/css/line-awesome.min.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ashok Kumar Full Stack (Web developer)</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/aos.css" />
+    <link rel="stylesheet" href="./assets/css/line-awesome.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <script src="./assets/js/index.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-    </script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
     <script type="text/javascript">
-        (function () {
-            emailjs.init("Phakgbj2fZW4JDfJm");
-        })();
+      (function () {
+        emailjs.init("Phakgbj2fZW4JDfJm");
+      })();
     </script>
-</head>
+  </head>
 
-<body data-bs-spy="scroll" data-bs-target=".navbar">
-
+  <body data-bs-spy="scroll" data-bs-target=".navbar">
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <div class="container flex-lg-column">
-            <a class="navbar-brand mx-lg-auto mb-lg-4" href="#">
-                <span class="h3 fw-bold d-block d-lg-none">dev<span style="color:rgb(81 206 255)">AshokC</span></span>
-                <img src="./assets/images/person2.jpg" class="d-none d-lg-block rounded-pill" alt="profilePic" />
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto flex-lg-column text-lg-center">
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#Skills">Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#Projects">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About Me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-
-                </ul>
-            </div>
+      <div class="container flex-lg-column">
+        <a class="navbar-brand mx-lg-auto mb-lg-4" href="#">
+          <span class="h3 fw-bold d-block d-lg-none"
+            >dev<span style="color: rgb(81 206 255)">AshokC</span></span
+          >
+          <img
+            src="./assets/images/person2.jpg"
+            class="d-none d-lg-block rounded-pill"
+            alt="profilePic"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto flex-lg-column text-lg-center">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
     <!-- //NAVBAR -->
 
     <!-- CONTENT WRAPPER -->
     <div id="content-wrapper">
+      <section id="home" class="full-height px-lg-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-10">
+              <h1 class="display-4 fw-bold" data-aos="fade-up">
+                I'M A
+                <span class="text-brand">
+                  Full Stack Developer with specialization of React
+                </span>
+              </h1>
+              <h3>Hi This Is Ashok,</h3>
+              <p
+                class="lead mt-2 mb-4"
+                data-aos="fade-up"
+                data-aos-delay="300"
+                style="color: rgb(189, 255, 233) !important"
+              >
+                I am a confident, self driven, passionate, hardworking fresher
+                looking for an opportunity to work in a challenging environment
+                and grow up with the organization. I am also fast learner who
+                likes to constantly upgrade myself.
+              </p>
+              <div data-aos="fade-up" data-aos-delay="600" class="">
+                <a href="#Projects" class="btn btn-brand m-3"
+                  >Explore My Projects</a
+                >
+                <a href="resume.pdf" download class="btn btn-brand m-3"
+                  >Download CV</a
+                ><br />
+                <br />
+                <a href="#" class="link-custom">Call:+91 9344-019615</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <section id="home" class=" full-height px-lg-5">
+      <section id="Skills" class="full-height px-lg-5">
+        <div class="container">
+          <div class="row pb-4" data-aos="fade-up">
+            <div class="col-lg-8">
+              <h6 class="text-brand">SKILLS</h6>
+              <h1>Skills That I Well Known</h1>
+            </div>
+          </div>
+          <section
+            class="Skills"
+            data-aos="fade-up"
+            data-aos-delay="300"
+            style="opacity: 1"
+          >
+            <div
+              class="imgs"
+              style="opacity: 1; transform: none"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <img
+                src="assets/images/html image.svg"
+                alt="Html5"
+                style="height: 100px; width: 100px"
+              />
+              <p class="css-1e49vpy">Html5</p>
+            </div>
+            <div
+              class="imgs"
+              style="opacity: 1; transform: none"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <img
+                src="assets/images/css image.svg"
+                alt="CSS3"
+                style="height: 100px; width: 100px"
+              />
+              <p class="css-1e49vpy">CSS3</p>
+            </div>
+            <div
+              class="imgs"
+              style="opacity: 1; transform: none"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <img
+                src="assets/images/js image.svg"
+                alt="JS"
+                style="height: 100px; width: 100px"
+              />
+              <p class="css-1e49vpy">JS</p>
+            </div>
+            <div
+              class="imgs"
+              style="opacity: 1; transform: none"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <img
+                src="assets/images/react image.svg"
+                alt="React"
+                style="height: 100px; width: 100px"
+              />
+              <p class="css-1e49vpy">React</p>
+            </div>
+            <div
+              class="imgs"
+              style="opacity: 1; transform: none"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <img
+                src="assets/images/node image.svg"
+                alt="NodeJS"
+                style="height: 100px; width: 100px"
+              />
+              <p class="css-1e49vpy">NodeJS</p>
+            </div>
+            <div
+              class="imgs"
+              style="opacity: 1; transform: none"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <img
+                src="assets/images/postman image.webp"
+                alt="NodeJS"
+                style="height: 100px; width: 100px"
+              />
+              <p class="css-1e49vpy">POSTMAN</p>
+            </div>
+            <div
+              class="imgs"
+              style="opacity: 1; transform: none"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <img
+                src="assets/images/Sql image.svg"
+                alt="NodeJS"
+                style="height: 100px; width: 100px"
+              />
+              <p class="css-1e49vpy">SQL</p>
+            </div>
+            <div
+              class="imgs"
+              style="opacity: 1; transform: none"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <img
+                src="assets/images/mongo image.svg"
+                alt="Mongodb"
+                style="height: 100px; width: 100px"
+              />
+              <p class="css-1e49vpy">Mongodb</p>
+            </div>
+            <div
+              class="imgs"
+              style="opacity: 1; transform: none"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <img
+                src="assets/images/bootstrap image.svg"
+                alt="Sass"
+                style="height: 100px; width: 100px"
+              />
+              <p class="css-1e49vpy">Bootstrap</p>
+            </div>
+            <div
+              class="imgs"
+              style="opacity: 1; transform: none"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <img
+                src="assets/images/express image.svg"
+                alt="Sass"
+                style="height: 100px; width: 100px"
+              />
+              <p class="css-1e49vpy">ExpressJs</p>
+            </div>
+            <div
+              class="imgs"
+              style="opacity: 1; transform: none"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <img
+                src="assets/images/git image.svg"
+                alt="Git"
+                style="height: 100px; width: 100px"
+              />
+              <p class="css-1e49vpy">Git</p>
+            </div>
+            <div
+              class="imgs"
+              style="opacity: 1; transform: none"
+              data-aos="fade-up"
+              data-aos-delay="200"
+              class="card-custom rounded-4 shadow-effect"
+            >
+              <img
+                src="assets/images/vscode image.svg"
+                alt="Vscode"
+                style="height: 100px; width: 100px"
+                class="card-custom-image rounded-4"
+              />
+              <p class="css-1e49vpy">Vscode</p>
+            </div>
+            <div
+              class="imgs"
+              style="opacity: 1; transform: none"
+              data-aos="fade-up"
+              data-aos-delay="200"
+              class="card-custom rounded-4 shadow-effect"
+            >
+              <img
+                src="assets/images/netlify logo.svg"
+                alt="Vscode"
+                style="height: 100px; width: 100px"
+                class="card-custom-image rounded-4"
+              />
+              <p class="css-1e49vpy">Netlify</p>
+            </div>
+          </section>
+        </div>
+      </section>
 
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-10">
-                        <h1 class="display-4 fw-bold" data-aos="fade-up">I'M A <span class="text-brand"> Full Stack
-                                Developer with specialization of React
-                            </span> </h1>
-                        <h3>Hi This Is Ashok,</h3>
-                        <p class="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300"
-                            style="color: rgb(47, 153, 118) !important;">
-                            I am a confident, self driven,
-                            passionate, hardworking fresher looking for an opportunity to work in a challenging
-                            environment and grow up with the organization. I am also fast learner who likes to
-                            constantly upgrade myself.</p>
-                        <div data-aos="fade-up" data-aos-delay="600" class="">
-                            <a href="#Projects" class="btn btn-brand m-3">Explore My Projects</a>
-                            <a href="resume.pdf" download class="btn btn-brand m-3">Download CV</a><br> <br>
-                            <a href="#" class="link-custom">Call:+91 9344-019615</a>
-                        </div>
-                    </div>
+      <section id="Projects" class="full-height px-lg-5">
+        <div class="container">
+          <div class="row pb-4" data-aos="fade-up">
+            <div class="col-lg-8">
+              <h6 class="text-brand">Projects</h6>
+              <h1>Explore My Projects</h1>
+            </div>
+          </div>
+
+          <div class="row gy-4">
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <img
+                    class="rounded-4"
+                    src="./assets/images/pro5.png"
+                    alt="Zoom App🍕"
+                  />
                 </div>
+                <div class="card-custom-content p-4">
+                  <p class="text-brand mb-2">04 Jan, 2023</p>
+                  <h5 class="mb-4">
+                    Design a creative landing Zoom App🤝🏻 using React, NodeJs
+                  </h5>
+                  <a
+                    href="https://regal-smakager-96a6d2.netlify.app"
+                    target="_blank"
+                    class="link-custom"
+                    >Visit</a
+                  >
+                </div>
+              </div>
             </div>
 
-        </section>
-
-        <section id="Skills" class="full-height px-lg-5">
-            <div class="container">
-
-                <div class="row pb-4" data-aos="fade-up">
-                    <div class="col-lg-8">
-                        <h6 class="text-brand">SKILLS</h6>
-                        <h1>Skills That I Well Known</h1>
-                    </div>
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <img
+                    class="rounded-4"
+                    src="./assets/images/pro6.png"
+                    alt="Furniture Rental🍕"
+                  />
                 </div>
-                <section class="Skills" data-aos="fade-up" data-aos-delay="300" style="opacity: 1;">
-                    <div class="imgs" style="opacity: 1; transform: none;"data-aos="fade-up" data-aos-delay="200"><img src="assets/images/html image.svg"
-                            alt="Html5" style="height:100px;width:100px" />
-                        <p class="css-1e49vpy">Html5</p>
-                    </div>
-                    <div class="imgs" style="opacity: 1; transform: none;"data-aos="fade-up" data-aos-delay="200"><img src="assets/images/css image.svg"
-                            alt="CSS3" style="height:100px;width:100px" />
-                        <p class="css-1e49vpy">CSS3</p>
-                    </div>
-                    <div class="imgs" style="opacity: 1; transform: none;"data-aos="fade-up" data-aos-delay="200"><img src="assets/images/js image.svg"
-                            alt="JS" style="height:100px;width:100px" />
-                        <p class="css-1e49vpy">JS</p>
-                    </div>
-                    <div class="imgs" style="opacity: 1; transform: none;"data-aos="fade-up" data-aos-delay="200">
-                        <img src="assets/images/react image.svg" alt="React" style="height:100px;width:100px" />
-                        <p class="css-1e49vpy">React</p>
-                    </div>
-                    <div class="imgs" style="opacity: 1; transform: none;"data-aos="fade-up" data-aos-delay="200"><img src="assets/images/node image.svg"
-                            alt="NodeJS" style="height:100px;width:100px" />
-                        <p class="css-1e49vpy">NodeJS</p>
-                    </div>
-                    <div class="imgs" style="opacity: 1; transform: none;"data-aos="fade-up" data-aos-delay="200"><img src="assets/images/Sql image.svg"
-                            alt="NodeJS" style="height:100px;width:100px" />
-                        <p class="css-1e49vpy">SQL</p>
-                    </div>
-                    <div class="imgs" style="opacity: 1; transform: none;"data-aos="fade-up" data-aos-delay="200"><img src="assets/images/mongo image.svg"
-                            alt="Mongodb" style="height:100px;width:100px" />
-                        <p class="css-1e49vpy">Mongodb</p>
-                    </div>
-                    <div class="imgs" style="opacity: 1; transform: none;" data-aos="fade-up" data-aos-delay="200"><img src="assets/images/bootstrap image.svg"
-                            alt="Sass" style="height:100px;width:100px" />
-                        <p class="css-1e49vpy">Bootstrap</p>
-                    </div>
-                    <div class="imgs" style="opacity: 1; transform: none;" data-aos="fade-up" data-aos-delay="200"><img src="assets/images/express image.svg"
-                            alt="Sass" style="height:100px;width:100px" />
-                        <p class="css-1e49vpy">ExpressJs</p>
-                    </div>
-                    <div class="imgs" style="opacity: 1; transform: none;" data-aos="fade-up" data-aos-delay="200"><img src="assets/images/git image.svg"
-                            alt="Git" style="height:100px;width:100px" />
-                        <p class="css-1e49vpy">Git</p>
-                    </div>
-                    <div class="imgs" style="opacity: 1; transform: none;" data-aos="fade-up" data-aos-delay="200" class="card-custom rounded-4  shadow-effect">
-                        <img src="assets/images/vscode image.svg" alt="Vscode" style="height:100px;width:100px"
-                            class="card-custom-image rounded-4" />
-                        <p class="css-1e49vpy">Vscode</p>
-                    </div>
-                </section>
+                <div class="card-custom-content p-4">
+                  <p class="text-brand mb-2">17 Aug, 2022</p>
+                  <h5 class="mb-4">
+                    REST Country API🚩using HTML5, CSS3, Javascript
+                  </h5>
+                  <a
+                    href="https://serene-crisp-f1ba1c.netlify.app"
+                    target="_blank"
+                    class="link-custom"
+                    >Visit</a
+                  >
+                </div>
+              </div>
             </div>
-        </section>
-
-        <section id="Projects" class="full-height px-lg-5">
-            <div class="container">
-
-                <div class="row pb-4" data-aos="fade-up">
-                    <div class="col-lg-8">
-                        <h6 class="text-brand">Projects</h6>
-                        <h1>Explore My Projects</h1>
-                    </div>
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <img
+                    class="rounded-4"
+                    src="./assets/images/pro1.png"
+                    alt="dashboard"
+                  />
                 </div>
-
-                <div class="row gy-4">
-                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
-                        <div class="card-custom rounded-4 bg-base shadow-effect">
-                            <div class="card-custom-image rounded-4">
-                                <img class="rounded-4" src="./assets/images/pro4.png" alt="Furniture Rental🍕" />
-                            </div>
-                            <div class="card-custom-content p-4">
-                                <p class="text-brand mb-2">20 Nov, 2022</p>
-                                <h5 class="mb-4">Design a creative landing Furniture Rental App💒 using React</h5>
-                                <a href="https://sunny-cactus-b7d4ef.netlify.app" target="_blank" class="link-custom">Visit</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
-                        <div class="card-custom rounded-4 bg-base shadow-effect">
-                            <div class="card-custom-image rounded-4">
-                                <img class="rounded-4" src="./assets/images/pro3.png" alt="Movie App🎯" />
-                            </div>
-                            <div class="card-custom-content p-4">
-                                <p class="text-brand mb-2">08 Oct, 2022</p>
-                                <h5 class="mb-4">Design a creative landing page of Movies App🎯 using React </h5>
-                                <a href="https://earnest-biscotti-801261.netlify.app" target="_blank" class="link-custom">Visit</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
-                        <div class="card-custom rounded-4 bg-base shadow-effect">
-                            <div class="card-custom-image rounded-4">
-                                <img class="rounded-4" src="./assets/images/pro1.png" alt="dashboard" />
-                            </div>
-                            <div class="card-custom-content p-4">
-                                <p class="text-brand mb-2">10 Sep, 2022</p>
-                                <h5 class="mb-4">Design a creative admin dashboard page📈 using
-                                    React</h5>
-                                <a href="https://cheerful-gecko-6b2aca.netlify.app/users" target="_blank" class="link-custom">Visit</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
-                        <div class="card-custom rounded-4 bg-base shadow-effect">
-                            <div class="card-custom-image rounded-4">
-                                <img class="rounded-4" src="./assets/images/pro2.png" alt="Pizza App🍕" />
-                            </div>
-                            <div class="card-custom-content p-4">
-                                <p class="text-brand mb-2">17 Dec, 2022</p>
-                                <h5 class="mb-4">Design a creative landing Pizza Delivery App🍕 using React</h5>
-                                <a href="https://harmonious-kheer-1531e4.netlify.app" target="_blank" class="link-custom">Visit</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
-                        <div class="card-custom rounded-4 bg-base shadow-effect">
-                            <div class="card-custom-image rounded-4">
-                                <img class="rounded-4" src="./assets/images/pro5.png" alt="Zoom App🍕" />
-                            </div>
-                            <div class="card-custom-content p-4">
-                                <p class="text-brand mb-2">04 Jan, 2023</p>
-                                <h5 class="mb-4">Design a creative landing Zoom App🤝🏻 using React</h5>
-                                <a href="https://regal-smakager-96a6d2.netlify.app" target="_blank" class="link-custom">Visit</a>
-                            </div>
-                        </div>
-                    </div>
-                    
-
+                <div class="card-custom-content p-4">
+                  <p class="text-brand mb-2">10 Sep, 2022</p>
+                  <h5 class="mb-4">
+                    Design a creative admin dashboard page📈using Html5, CSS3
+                    React
+                  </h5>
+                  <a
+                    href="https://cheerful-gecko-6b2aca.netlify.app/users"
+                    target="_blank"
+                    class="link-custom"
+                    >Visit</a
+                  >
                 </div>
-
+              </div>
             </div>
-        </section>
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <img
+                    class="rounded-4"
+                    src="./assets/images/pro3.png"
+                    alt="Movie App🎯"
+                  />
+                </div>
+                <div class="card-custom-content p-4">
+                  <p class="text-brand mb-2">08 Oct, 2022</p>
+                  <h5 class="mb-4">
+                    Design a creative landing page of Movies App🎯 using HTML5,
+                    CSS3, React, NodeJS, Mongodb, ExpressJS and POSTMAN Tool
+                  </h5>
+                  <a
+                    href="https://earnest-biscotti-801261.netlify.app"
+                    target="_blank"
+                    class="link-custom"
+                    >Visit</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <img
+                    class="rounded-4"
+                    src="./assets/images/pro2.png"
+                    alt="Pizza App🍕"
+                  />
+                </div>
+                <div class="card-custom-content p-4">
+                  <p class="text-brand mb-2">17 Dec, 2022</p>
+                  <h5 class="mb-4">
+                    Design a creative landing Pizza Delivery App🍕 using HTML5,
+                    CSS3, React, NodeJS, Mongodb, ExpressJS and POSTMAN Tool
+                  </h5>
+                  <a
+                    href="https://harmonious-kheer-1531e4.netlify.app"
+                    target="_blank"
+                    class="link-custom"
+                    >Visit</a
+                  >
+                </div>
+              </div>
+            </div>
 
-        <section id="about" class="full-height px-lg-5">
-            <div class="container">
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <img
+                    class="rounded-4"
+                    src="./assets/images/pro4.png"
+                    alt="Furniture Rental🍕"
+                  />
+                </div>
+                <div class="card-custom-content p-4">
+                  <p class="text-brand mb-2">20 Nov, 2022</p>
+                  <h5 class="mb-4">
+                    Design a creative Furniture Rental App💒 using HTML5, CSS3,
+                    React, NodeJS, Mongodb, ExpressJS and POSTMAN Tool
+                  </h5>
+                  <a
+                    href="https://sunny-cactus-b7d4ef.netlify.app"
+                    target="_blank"
+                    class="link-custom"
+                    >Visit</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-                <div class="row pb-4" data-aos="fade-up">
-                    <div class="col-lg-8">
-                        <h6 class="text-brand">ABOUT ME</h6>
-                        <h1>My Education & Experience</h1>
-                    </div>
+      <section id="about" class="full-height px-lg-5">
+        <div class="container">
+          <div class="row pb-4" data-aos="fade-up">
+            <div class="col-lg-8">
+              <h6 class="text-brand">ABOUT ME</h6>
+              <h1>My Education & Experience</h1>
+            </div>
+          </div>
+
+          <div class="row gy-5">
+            <div class="col-lg-6">
+              <h3 class="mb-4" data-aos="fade-up" data-aos-delay="300">
+                Education
+              </h3>
+              <div class="row gy-4">
+                <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                  <div class="bg-base p-4 rounded-4 shadow-effect">
+                    <h4>🧑🏻‍🎓Bachelor degree of Computer Science</h4>
+                    <p class="text-brand mb-2">
+                      The American college, Madurai (07/2019 - 05/2022)
+                    </p>
+                    <p class="mb-0">BSc Computer Science With the GPA OF 7.6</p>
+                  </div>
                 </div>
 
-                <div class="row gy-5">
-                    <div class="col-lg-6">
+                <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                  <div class="bg-base p-4 rounded-4 shadow-effect">
+                    <h4>🎒Higher Secondary Certificate</h4>
+                    <p class="text-brand mb-2">
+                      St. john's Matric School, Madurai (2017 - 2019)
+                    </p>
+                    <p class="mb-0">
+                      Higher Secondary Certificate (12th standard) With 65.4%
+                    </p>
+                  </div>
+                </div>
 
-                        <h3 class="mb-4" data-aos="fade-up" data-aos-delay="300">Education</h3>
-                        <div class="row gy-4">
+                <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                  <div class="bg-base p-4 rounded-4 shadow-effect">
+                    <h4>🚸Secondary School Leaving Certificate</h4>
+                    <p class="text-brand mb-2">
+                      St. britto Matric School (2010 - 2017)
+                    </p>
+                    <p class="mb-0">
+                      Secondary School Leaving Certificate(10th standard) with
+                      86.2%
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-                            <div class="col-12" data-aos="fade-up" data-aos-delay="600">
-                                <div class="bg-base p-4 rounded-4 shadow-effect">
-                                    <h4>🧑🏻‍🎓Bachelor degree of Computer Science</h4>
-                                    <p class="text-brand mb-2">The American college, Madurai
-                                        (07/2019 - 05/2022)</p>
-                                    <p class="mb-0">BSc Computer Science With the GPA OF 7.6</p>
-                                </div>
-                            </div>
+            <div class="col-lg-6">
+              <h3 class="mb-4" data-aos="fade-up" data-aos-delay="300">
+                Experience
+              </h3>
+              <div class="row gy-4">
+                <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                  <div class="bg-base p-4 rounded-4 shadow-effect">
+                    <h4>Full Stack Web Development (pursuing)</h4>
+                    <p class="text-brand mb-2">Guvi (08/2022 - 02/2023)</p>
+                    <p class="mb-0">
+                      Guvi IIT Research Park, Chennai-(Internship)
+                    </p>
+                  </div>
+                </div>
 
-                            <div class="col-12" data-aos="fade-up" data-aos-delay="600">
-                                <div class="bg-base p-4 rounded-4 shadow-effect">
-                                    <h4>🎒Higher Secondary Certificate</h4>
-                                    <p class="text-brand mb-2">St. john's Matric School, Madurai
-                                        (2017 - 2019)</p>
-                                    <p class="mb-0">Higher Secondary
-                                        Certificate (12th standard) With 65.4%</p>
-                                </div>
-                            </div>
-
-                            <div class="col-12" data-aos="fade-up" data-aos-delay="600">
-                                <div class="bg-base p-4 rounded-4 shadow-effect">
-                                    <h4>🚸Secondary School Leaving Certificate</h4>
-                                    <p class="text-brand mb-2">St. britto Matric School
-                                        (2010 - 2017) </p>
-                                    <p class="mb-0">Secondary School Leaving
-                                        Certificate(10th standard)
-                                        with 86.2%</p>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                    <div class="col-lg-6">
-
-                        <h3 class="mb-4" data-aos="fade-up" data-aos-delay="300">Experience</h3>
-                        <div class="row gy-4">
-
-                            <div class="col-12" data-aos="fade-up" data-aos-delay="600">
-                                <div class="bg-base p-4 rounded-4 shadow-effect">
-                                    <h4>Full Stack Web Development (pursuing)</h4>
-                                    <p class="text-brand mb-2">Guvi (08/2022 - 02/2023) </p>
-                                    <p class="mb-0">Guvi IIT Research Park, Chennai-(Internship)</p>
-                                </div>
-                            </div>
-
-                            <div class="col-12" data-aos="fade-up" data-aos-delay="600">
-                                <div class="bg-base p-4 rounded-4 shadow-effect">
-                                    <h4>Service Language Programming (SLP)</h4>
-                                    <p class="text-brand mb-2">AMC(07/2020 - 05/2021) </p>
-                                    <p class="mb-0">
-                                        🎯Perform vendor management and oversight by analyzing vendor architecture,
-                                        business risk, business value and implementing mitigating controls<br>
-                                        🎯 Manage 2 or more subordinates; direct and prioritize the work load<br>
-                                        🎯 Manage team performance and welfare including staffing
-                                    </p>
-                                </div>
-                            </div>
-                            <!-- 
+                <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                  <div class="bg-base p-4 rounded-4 shadow-effect">
+                    <h4>Service Language Programming (SLP)</h4>
+                    <p class="text-brand mb-2">AMC(07/2020 - 05/2021)</p>
+                    <p class="mb-0">
+                      🎯Perform vendor management and oversight by analyzing
+                      vendor architecture, business risk, business value and
+                      implementing mitigating controls<br />
+                      🎯 Manage 2 or more subordinates; direct and prioritize
+                      the work load<br />
+                      🎯 Manage team performance and welfare including staffing
+                    </p>
+                  </div>
+                </div>
+                <!-- 
                             <div class="col-12" data-aos="fade-up" data-aos-delay="600">
                                 <div class="bg-base p-4 rounded-4 shadow-effect">
                                     <h4>Applications developer</h4>
@@ -312,76 +554,94 @@
                                         consectetur adipisicing elit</p>
                                 </div>
                             </div> -->
-
-                        </div>
-
-                    </div>
-
-                </div>
-
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <section id="contact" class="full-height px-lg-5">
-            <div class="container">
-
-                <div class="row justify-content-center text-center">
-                    <div class="col-lg-8 pb-4" data-aos="fade-up">
-                        <h6 class="text-brand">CONTACT</h6>
-                        <h1>Interested🤔! then hire me? Let's talk
-                        </h1>
-                    </div>
-
-                    <div class="col-lg-8" data-aos="fade-up" data-aos-delay="300">
-                        <form action="" class="row g-lg-3 gy-3">
-                            <div class="form-group col-md-6">
-                                <input type="text" id="name" class="form-control" placeholder="Enter your name"
-                                    required>
-                            </div>
-                            <div class="form-group col-md-6">
-                                <input type="email" id="email" class="form-control" placeholder="Enter your email"
-                                    required>
-                            </div>
-                            <div class="form-group col-12">
-                                <textarea rows="4" id="message" class="form-control" placeholder="Enter your message"
-                                    required></textarea>
-                            </div>
-                            <div class="form-group col-12 d-grid">
-                                <button type="submit" onclick="sendMail()" class="btn btn-brand">Contact me</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-
+      <section id="contact" class="full-height px-lg-5">
+        <div class="container">
+          <div class="row justify-content-center text-center">
+            <div class="col-lg-8 pb-4" data-aos="fade-up">
+              <h6 class="text-brand">CONTACT</h6>
+              <h1>Interested🤔! then hire me? Let's talk</h1>
             </div>
-        </section>
 
-        <footer class="py-5 px-lg-5">
-            <div class="container">
-                <div class="row gy-4 justify-content-evenly">
-                    <div class="col-auto">
-                        <p class="mb-0">&copy; <a href="#" class="fw-bold">Ashok Kumar.C</a></p>
-                    </div>
-                    <div class="col-auto">
-                        <div class="social-icons">
-                            <a href="https://www.linkedin.com/in/devashokc/" target="_blank"><i
-                                    class="fa-brands fa-linkedin"></i></a>
-                            <a href="https://app.netlify.com/teams/devashokc/overview" target="_blank"><i
-                                    class="lab la-dribbble"></i></a>
-                            <a href="https://github.com/devAshokc" target="_blank"><i class="lab la-github"></i></a>
-                        </div>
-                    </div>
+            <div class="col-lg-8" data-aos="fade-up" data-aos-delay="300">
+              <form action="" class="row g-lg-3 gy-3">
+                <div class="form-group col-md-6">
+                  <input
+                    type="text"
+                    id="name"
+                    class="form-control"
+                    placeholder="Enter your name"
+                    required
+                  />
                 </div>
+                <div class="form-group col-md-6">
+                  <input
+                    type="email"
+                    id="email"
+                    class="form-control"
+                    placeholder="Enter your email"
+                    required
+                  />
+                </div>
+                <div class="form-group col-12">
+                  <textarea
+                    rows="4"
+                    id="message"
+                    class="form-control"
+                    placeholder="Enter your message"
+                    required
+                  ></textarea>
+                </div>
+                <div class="form-group col-12 d-grid">
+                  <button
+                    type="submit"
+                    onclick="sendMail()"
+                    class="btn btn-brand"
+                  >
+                    Contact me
+                  </button>
+                </div>
+              </form>
             </div>
-        </footer>
+          </div>
+        </div>
+      </section>
 
-
+      <footer class="py-5 px-lg-5">
+        <div class="container">
+          <div class="row gy-4 justify-content-evenly">
+            <div class="col-auto">
+              <p class="mb-0">
+                &copy; <a href="#" class="fw-bold">Ashok Kumar.C</a>
+              </p>
+            </div>
+            <div class="col-auto">
+              <div class="social-icons">
+                <a href="https://www.linkedin.com/in/devashokc/" target="_blank"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+                <a
+                  href="https://app.netlify.com/teams/devashokc/overview"
+                  target="_blank"
+                  ><i class="lab la-dribbble"></i
+                ></a>
+                <a href="https://github.com/devAshokc" target="_blank"
+                  ><i class="lab la-github"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
-
 
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/js/aos.js"></script>
     <script src="./assets/js/main.js"></script>
-</body>
-
+  </body>
 </html>
