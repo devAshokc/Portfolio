@@ -32,7 +32,9 @@ a {
     color: var(--color-body);
     transition: all 0.4s ease;
 }
-
+.edication{
+    text-align: center;
+}
 a:hover {
     /* background-color: black; */
     color: blanchedalmond;
