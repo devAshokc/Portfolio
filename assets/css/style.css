@@ -16,6 +16,9 @@ body {
     background-image: linear-gradient(to right top, #635641, #534835, #433b2a, #342e1f, #262215, #262215, #262215, #262215, #342e1f, #433b2a, #534835, #635641);
     font-family: var(--font-base), sans-serif;
 }
+hr{
+    color: var(--color-brand);
+}
 
 h1,
 h2,
